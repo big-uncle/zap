@@ -1,11 +1,14 @@
-module go.uber.org/zap
+module github.com/big-uncle/zap
 
 go 1.19
+
+replace go.uber.org/zap => github.com/big-uncle/zap v0.0.0-20240328094206-30a840f13915
 
 require (
 	github.com/stretchr/testify v1.8.1
 	go.uber.org/goleak v1.3.0
 	go.uber.org/multierr v1.10.0
+	go.uber.org/zap v0.0.0-00010101000000-000000000000
 	gopkg.in/yaml.v3 v3.0.1
 )
 
